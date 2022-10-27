@@ -118,15 +118,15 @@
 /* ------------------------------------------------------------------------- */
 /* Colors */
 /* ------------------------------------------------------------------------- */
-#section-movement, #section-movement .item-icon {
+#section-rules, #section-rules .item-icon {
     background-color: maroon;
     border-color: maroon;
 }
-#section-movement .text {
+#section-rules .text {
     color: maroon;
 }
 
-#section-action, #section-action .item-icon {
+#section-combat, #section-combat .item-icon {
     background-color: black;
     border-color: black;
 }
@@ -134,15 +134,15 @@
     color: black;
 }
 
-#section-bonus-action, #section-bonus-action .item-icon {
+#section-sanity, #section-sanity .item-icon {
     background-color: indigo;
     border-color: indigo;
 }
-#section-bonus-action .text {
+#section-sanity .text {
     color: indigo;
 }
 
-#section-reaction, #section-reaction .item-icon {
+#section-chase, #section-chase .item-icon {
     background-color: DarkOliveGreen ;
     border-color: DarkOliveGreen ;
 }
@@ -150,7 +150,7 @@
     color: DarkOliveGreen ;
 }
 
-#section-condition, #section-condition .item-icon {
+#section-magic, #section-magic .item-icon {
     background-color: FireBrick;
     border-color: FireBrick;
 }
