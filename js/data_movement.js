@@ -20,43 +20,52 @@ data_movement = [
     {
         title: "Opposed Rolls",
         icon: "crags",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft climbed",
-        reference: "PHB, pg. 182.",
+        subtitle: "When two characters oppose each other",
+        description: "Use when two characters are opposing one another.",
+        reference: "add page number",
         bullets: [
-            "May involve a Strength (Athletics) check if the climb is difficult"
+            "Both roll against agreed skill or characteristic. The one with the best level of success wins:", 
+            "A Critical success beats an Extreme success",
+            "An Extreme success beats a Hard success",
+            "A Hard success beats a Regular success",
+            "A Regular success beats a Failure or Fumble",
+            "In the case of a tie, the side with the higher skill (or characteristic) wins. If still tied either an impasse has been reached or both sides should re-roll.",
+            "Opposed rolls cannot be pushed."
         ]
     },
     {
         title: "Bonus Dice and Penalty Dice",
         icon: "at-sea",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft swum",
-        reference: "PHB, pg. 182.",
+        subtitle: "Sometimes things are easier or harder",
+        description: "Sometimes you get a bonus or a penalty",
+        reference: "add page number",
         bullets: [
-            "May involve a Strength (Athletics) check if the swim is difficult"
+            "For each bonus die: roll an additional ‘tens’ percentage die alongside the usual pair of percentage dice when making a skill roll (rolling 3 separate dice: one ‘units’ die and two ‘tens’ dice). Use the ‘tens’ dice that yields the better (lowest) result.", 
+            "For each penalty die: roll an additional ‘tens’ percentage die alongside the usual pair of percentage dice (rolling 3 separate dice: one 'units' die and two 'tens' dice). Use the ‘tens’ dice that yields the worse (highest) result."
         ]
     },
     {
         title: "Human Limits and Skill Rolls",
         icon: "falling",
-        subtitle: "Cost: 0ft",
-        description: "Movement cost: 0ft (free)",
-        reference: "PHB, pgs. 190-191,292.",
+        subtitle: "There are limits",
+        description: "The upper limit of what can be opposed is 100 + the investigator’s skill or characteristic",
+        reference: "add page number",
         bullets: [
-            "You can drop prone without using any of your speed",
-            "To move while prone, you must crawl or use magic such as teleportation",
-            "Dropping prone adds the <i>Prone</i> condition (melee attacks against you have advantage, ranged attacks against you have disadvantage, your own attacks have disadvantage)"
+            "Starting with the lowest, deduct each investigator’s characteristic value in turn from the opposition’s characteristic.", 
+            "Continue doing this until the opponent’s characteristic has been reduced to a value that can be challenged by an investigator.",
+            "Investigators whose characteristics were not used to reduce the opposing factor may now make a skill roll, with an Extreme, Hard or Regular difficulty level, as determined by the value of the opposing characteristic.",
+            "The opposition cannot be reduced to zero or lower by this method; a skill roll is always required."
         ]
     },
     {
         title: "Combined Skill Rolls",
         icon: "crawl",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft crawled",
-        reference: "PHB, pg. 182.",
+        subtitle: "More than one skill allowed/demanded",
+        description: "Used when a situation allows or demands the use of more than one skill. ",
+        reference: "add page number",
         bullets: [
-
+            "Only one dice roll is made; the result is then compared with each of the skills named.",
+            "The Keeper will specify whether a success is required for both skills, or if only one of the skills need be successful."
         ]
     },
     {
