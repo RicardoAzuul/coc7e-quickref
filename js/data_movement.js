@@ -71,11 +71,16 @@ data_movement = [
     {
         title: "Investigator Development Phase",
         icon: "strong",
-        subtitle: "Cost: half movement speed",
-        description: "Movement cost: half of your speed",
-        reference: "PHB, pg. 190-191.",
+        subtitle: "Getting better",
+        description: "Getting just a little better",
+        reference: "add page number",
         bullets: [
-            "You can't stand up if you don't have enough movement left or if your speed is 0"
+            "Roll 1D100 for each skill checked. If the result is higher than the skill or over 95, add 1D10 skill points.",
+            "Erase ticks.",
+            "If an increase raises a skill to 90% or more, add 2D6 Sanity points.",
+            "Check Credit Rating and review finances (see Investigator Development Phase: Employment and Credit Rating)",
+            "Seek to recover Sanity (see Chapter 7: Sanity).",
+            "Review the investigator’s background (see Altering an investigator’s background, page @@)"
         ]
     }
 ]
