@@ -65,7 +65,7 @@ data_movement = [
         reference: "add page number",
         bullets: [
             "Only one dice roll is made; the result is then compared with each of the skills named.",
-            "The Keeper will specify whether a success is required for both skills, or if only one of the skills need be successful."
+            "The Keeper will specify whether a success is required for both skills, or if only one of the skills need be successful."
         ]
     },
     {
